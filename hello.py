@@ -7,7 +7,7 @@ def index():
 
 @app.route("/about")
 def about():
-    return "<div style='background-color: #ff0000;'>This is a div with a red background color.</div>"
+    return "<div style='background-color: #008000;'>This is a div with a red background color.</div>"
 
 @app.route("/home/")
 def home():
